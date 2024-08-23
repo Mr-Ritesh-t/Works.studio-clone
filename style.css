@@ -1,0 +1,468 @@
+@font-face {
+    font-family: 'FreightBigProBook';
+    src: url('/freightbig-pro/FreightBigProBook-Regular.eot');
+    src: local('☞FreightBig Pro Book'), local('FreightBigProBook-Regular'),
+        url('/freightbig-pro/FreightBigProBook-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/freightbig-pro/FreightBigProBook-Regular.woff2') format('woff2'),
+        url('/freightbig-pro/FreightBigProBook-Regular.woff') format('woff'),
+        url('/freightbig-pro/FreightBigProBook-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FreightBigProBlack';
+    src: url('/freightbig-pro/FreightBigProBlack-Regular.eot');
+    src: local('☞FreightBig Pro Black'), local('FreightBigProBlack-Regular'),
+        url('/freightbig-pro/FreightBigProBlack-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/freightbig-pro/FreightBigProBlack-Regular.woff2') format('woff2'),
+        url('/freightbig-pro/FreightBigProBlack-Regular.woff') format('woff'),
+        url('/freightbig-pro/FreightBigProBlack-Regular.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FreightBigProMedium';
+    src: url('/freightbig-pro/FreightBigProMedium-Italic.eot');
+    src: local('☞FreightBig Pro Medium Italic'), local('FreightBigProMedium-Italic'),
+        url('/freightbig-pro/FreightBigProMedium-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/freightbig-pro/FreightBigProMedium-Italic.woff2') format('woff2'),
+        url('/freightbig-pro/FreightBigProMedium-Italic.woff') format('woff'),
+        url('/freightbig-pro/FreightBigProMedium-Italic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FreightBigProLight';
+    src: url('/freightbig-pro/FreightBigProLight-Regular.eot');
+    src: local('☞FreightBig Pro Light'), local('FreightBigProLight-Regular'),
+        url('/freightbig-pro/FreightBigProLight-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/freightbig-pro/FreightBigProLight-Regular.woff2') format('woff2'),
+        url('/freightbig-pro/FreightBigProLight-Regular.woff') format('woff'),
+        url('/freightbig-pro/FreightBigProLight-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FreightBigProBold';
+    src: url('/freightbig-pro/FreightBigProBold-Italic.eot');
+    src: local('☞FreightBig Pro Bold Italic'), local('FreightBigProBold-Italic'),
+        url('/freightbig-pro/FreightBigProBold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/freightbig-pro/FreightBigProBold-Italic.woff2') format('woff2'),
+        url('/freightbig-pro/FreightBigProBold-Italic.woff') format('woff'),
+        url('/freightbig-pro/FreightBigProBold-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FreightBigProBlack';
+    src: url('/freightbig-pro/FreightBigProBlack-Italic.eot');
+    src: local('☞FreightBig Pro Black Italic'), local('FreightBigProBlack-Italic'),
+        url('/freightbig-pro/FreightBigProBlack-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/freightbig-pro/FreightBigProBlack-Italic.woff2') format('woff2'),
+        url('/freightbig-pro/FreightBigProBlack-Italic.woff') format('woff'),
+        url('/freightbig-pro/FreightBigProBlack-Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FreightBigProBold';
+    src: url('/freightbig-pro/FreightBigProBold-Regular.eot');
+    src: local('☞FreightBig Pro Bold'), local('FreightBigProBold-Regular'),
+        url('/freightbig-pro/FreightBigProBold-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/freightbig-pro/FreightBigProBold-Regular.woff2') format('woff2'),
+        url('/freightbig-pro/FreightBigProBold-Regular.woff') format('woff'),
+        url('/freightbig-pro/FreightBigProBold-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FreightBigProSemibold';
+    src: url('/freightbig-pro/FreightBigProSemibold-Regular.eot');
+    src: local('☞FreightBig Pro Semibold'), local('FreightBigProSemibold-Regular'),
+        url('/freightbig-pro/FreightBigProSemibold-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/freightbig-pro/FreightBigProSemibold-Regular.woff2') format('woff2'),
+        url('/freightbig-pro/FreightBigProSemibold-Regular.woff') format('woff'),
+        url('/freightbig-pro/FreightBigProSemibold-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FreightBigProMedium';
+    src: url('/freightbig-pro/FreightBigProMedium-Regular.eot');
+    src: local('☞FreightBig Pro Medium'), local('FreightBigProMedium-Regular'),
+        url('/freightbig-pro/FreightBigProMedium-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/freightbig-pro/FreightBigProMedium-Regular.woff2') format('woff2'),
+        url('/freightbig-pro/FreightBigProMedium-Regular.woff') format('woff'),
+        url('/freightbig-pro/FreightBigProMedium-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FreightBigProLight';
+    src: url('/freightbig-pro/FreightBigProLight-Italic.eot');
+    src: local('☞FreightBig Pro Light Italic'), local('FreightBigProLight-Italic'),
+        url('/freightbig-pro/FreightBigProLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/freightbig-pro/FreightBigProLight-Italic.woff2') format('woff2'),
+        url('/freightbig-pro/FreightBigProLight-Italic.woff') format('woff'),
+        url('/freightbig-pro/FreightBigProLight-Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FreightBigProBook';
+    src: url('/freightbig-pro/FreightBigProBook-Italic.eot');
+    src: local('☞FreightBig Pro Book Italic'), local('FreightBigProBook-Italic'),
+        url('/freightbig-pro/FreightBigProBook-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/freightbig-pro/FreightBigProBook-Italic.woff2') format('woff2'),
+        url('/freightbig-pro/FreightBigProBook-Italic.woff') format('woff'),
+        url('/freightbig-pro/FreightBigProBook-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FreightBigProSemibold';
+    src: url('/freightbig-pro/FreightBigProSemibold-Italic.eot');
+    src: local('☞FreightBig Pro Semibold Italic'), local('FreightBigProSemibold-Italic'),
+        url('/freightbig-pro/FreightBigProSemibold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/freightbig-pro/FreightBigProSemibold-Italic.woff2') format('woff2'),
+        url('/freightbig-pro/FreightBigProSemibold-Italic.woff') format('woff'),
+        url('/freightbig-pro/FreightBigProSemibold-Italic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    
+    background-color: #000;
+}
+
+#loader {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 99;
+    /* display: none; */
+}
+
+#yellow1{
+    height: 100%;
+    width: 100%;
+    background-color: #F5E41B;
+    position: absolute;
+    z-index: 8;
+}
+
+#yellow2{
+    height: 100%;
+    width: 100%;
+    background-color: #F5E41B;
+    position: absolute;
+    z-index: 7;
+}
+
+
+#loader video{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 6;
+}
+
+#loader h1{
+    font-size: 6.5vw;
+    font-weight: 200;
+    line-height: 5vw;
+    font-family: "FreightBigprolight";
+    letter-spacing: -3px;
+    position: relative;
+    z-index: 9;
+}
+
+#nav{
+    position: absolute;
+    height: 2vw;
+    z-index: 9;
+    padding: 35px 70px;
+    width: 100%;
+}
+
+#nav svg path{
+    fill: #000;
+}
+
+
+#page1 {
+    height: 100vh;
+    width: 100%;
+    background-color: #F5E41B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#page1 h1 {
+    font-size: 6.5vw;
+    font-weight: 200;
+    line-height: 5vw;
+    font-family: "FreightBigprolight";
+    letter-spacing: -3px;
+}
+
+#page1-bottem {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    font-family: "arial";
+}
+
+#page1-bottem a {
+    text-decoration: none;
+    color: #000;
+    padding: 20px 70px;
+}
+
+#page1-bottem #arrow {
+    text-decoration: none;
+    color: #000;
+    padding: 20px 70px;
+    font-size: 30px;
+}
+
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.elem{
+    width: 100%;
+    position: relative;
+}
+
+.elem .blur{
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(to right,#f5e31bc6,#F5E41B,#f5e31bb9);
+    box-shadow: 10px 0px 20px 1px #F5E41B,-10px 0px 20px 1px #F5E41B;
+    height: 100%;
+    z-index: 8;
+}
+
+.elem h2{
+    font-size: 6vw;
+    font-family: 'FreightBigProLight';
+    position: relative;
+    z-index: 9;
+    line-height: 4.5vw;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+
+.elem .moving{
+    background-color: #F5E41B;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 8px 0;
+    position: absolute;
+    transform: translate(0,-50%) scaleY(0);
+    transition: all ease 0.3s;
+    top:50%;
+}
+
+.elem .moving .moving-in{
+    white-space: nowrap;
+    display: inline-block;
+    animation-name: moving;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+.elem .moving .moving-in h5{
+    font-size: 20px;
+    color: #000;
+    display: inline-block;
+    font-family: 'arial';
+    font-weight: 10;
+    text-transform: uppercase;
+    margin-right: 30px;
+    opacity: 0;
+    transition: all ease 0.3s;
+    transition-delay: 0.2s;
+}
+
+.elem:hover .moving{
+    transform: translate(0,-50%) scaleY(1);
+}
+
+.elem:hover .moving .moving-in h5{
+    opacity: 1;
+
+}
+
+.elem:hover h2{
+    font-style: italic;
+}
+
+    @keyframes moving {
+      from {
+            transform: translate(0);
+        }
+    
+        to {
+            transform: translate(-100%);
+        }
+    }
+
+#page3 {
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.image-container{
+    padding: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-div{
+    width: 28vw;
+    position: relative;
+    overflow: hidden;
+    margin: 40px 20px;
+}
+
+.image-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all ease 0.2s;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all ease 0.5s;
+    transition-delay: 0.2s;
+    z-index: 9;
+}
+
+.overlay p{
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    line-height: 2.5vw;
+    
+}
+
+.image-div:hover .overlay{
+    opacity: 1;
+}
+
+.image-div:hover img{
+    scale: 1.1;
+}
+
+#footer{
+    height: 40vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#footer #foot{
+    height: 40%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    font-family: "arial";
+}
+
+#footer #foot a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9vw;
+}
+
+#right:hover a{
+    text-decoration: underline;
+}
+
+#footer #foot #left a{
+    padding: 0 2vw;
+}
+
+#footer h2{
+    font-family: "arial";
+    text-transform: uppercase;
+    font-size: 0.8vw;
+    font-weight: 100;
+    cursor: pointer;
+    line-height: 0;
+}
