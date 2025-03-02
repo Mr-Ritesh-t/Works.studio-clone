@@ -466,3 +466,60 @@ body {
     cursor: pointer;
     line-height: 0;
 }
+
+@media (max-width: 768px) {
+    #loader h1, #page1 h1 {
+        font-size: 8vw;
+        line-height: 6vw;
+        letter-spacing: -1px;
+    }
+    
+    #page1-bottem {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    #page1-bottem a {
+        padding: 10px 0;
+        font-size: 4vw;
+    }
+
+    .overlay p {
+        font-size: 4vw;
+        line-height: 3vw;
+    }
+
+    .image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-div {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    #footer h2 {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 768px) {
+    #page2 {
+        background-image: url('low-res-mobile.jpg'); /* Use a smaller, optimized image */
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 768px) {
+    #page1-bottem a {
+        padding: 15px 20px;
+        font-size: 5vw;
+    }
+
+    .elem h2 {
+        font-size: 7vw;
+    }
+}

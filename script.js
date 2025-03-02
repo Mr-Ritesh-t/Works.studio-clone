@@ -49,3 +49,25 @@ elems.forEach(function(ele) {
        page2.style.backgroundImage = `url(${bgimg})`
     })
 })
+
+if (window.innerWidth < 768) {
+    gsap.set("#loader h1", { fontSize: "10vw", lineHeight: "7vw" });
+    gsap.set("#page1 h1", { fontSize: "9vw", lineHeight: "6vw" });
+
+    // Disable Locomotive Scroll on Mobile
+    if (scroll) {
+        scroll.destroy();
+    }
+
+    // Use smooth native scrolling for mobile
+    document.documentElement.style.scrollBehavior = "smooth";
+}
+
+if ("ontouchstart" in document.documentElement) {
+    document.querySelectorAll(".elem").forEach((ele) => {
+        ele.addEventListener("click", function () {
+            let bgimg = ele.getAttribute("data-img");
+            document.querySelector("#page2").style.background = `url(${bgimg}) center/cover no-repeat`;
+        });
+    });
+}
